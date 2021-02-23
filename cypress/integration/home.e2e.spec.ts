@@ -9,9 +9,9 @@ describe('Home Page Test', () =>
     // Check if the word Welcome exists
     cy.contains('Welcome');
     
+    // Visit Angular Website and Angular Blog
     cy.contains('Learn Angular').click();
-
-
+    cy.contains('Angular Angular').click();
   });
 
 });
