@@ -9,7 +9,7 @@ describe('Home Page Test', () =>
     // Check if the word Welcome exists
     cy.contains('Welcome');
     
-    cy.find('tutorial').click();
+    cy.find('New Component').click();
 
 
   });
