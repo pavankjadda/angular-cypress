@@ -11,7 +11,7 @@ describe('Home Page Test', () =>
     
     // Visit Angular Website and Angular Blog
     cy.contains('Learn Angular').click();
-    cy.contains('Angular Angular').click();
+    cy.contains('Angular Blog').click();
   });
 
 });
